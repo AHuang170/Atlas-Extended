@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Hackathon Prototype</title>
+	<meta name="description" content="Hackathon Prototype">
+	<meta name="author" content="CIT Bois">
+
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root">
+		<div class="App" style="overflow: hidden;">
+			<form action="/action_page.php">
+				Room Name: <input type="text" name="rname"><br>
+				
+			<select id= "floorList">
+				<option value="1">Floor 1</option>
+				<option value="2">Floor 2</option>
+				<option value="3">Floor 3</option>
+			</select>
+			<select id= "floorList">
+				<option value="00">00</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+			</select>
+			<select id= "floorList">
+				<option value="00">00</option>
+				<option value="30">30</option>
+			</select>
+			<input type="submit" value="Submit">
+			</form>
+			<div id="mapWrapper">
+				<canvas class="mapCanvas" width="1493" height="829" style="position: absolute; z-index: 5; width: 746.5px; height: 414.5px;"></canvas>
+				<img class="base" alt="" id="base" src="static/media/base_min.262e1a29.jpg" style="position: absolute; z-index: 2; height: 414.5px; width: 746.5px;">
+				<img alt="" id="kitchens" src="static/media/kitchens_min.81a4b13d.png" style="visibility: visible; position: absolute; z-index: 3; height: 414.5px; width: 746.5px;">
+				<img alt="" id="bathrooms" src="static/media/bathrooms_min.d0f41751.png" style="visibility: visible; position: absolute; z-index: 3; height: 414.5px; width: 746.5px;">
+				<img alt="" id="stairs" src="static/media/stairs_min.ec1d3957.png" style="visibility: visible; position: absolute; z-index: 3; height: 414.5px; width: 746.5px;">
+				<img alt="" id="elevators" src="static/media/elevators_min.b273744b.png" style="visibility: visible; position: absolute; z-index: 3; height: 414.5px; width: 746.5px;">
+				<img alt="" id="amenities" src="static/media/amenities_min.514ac475.png" style="visibility: visible; position: absolute; z-index: 3; width: 746.5px; height: 414.5px;">
+			</div>
+		</div>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
